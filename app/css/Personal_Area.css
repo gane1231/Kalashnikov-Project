@@ -1,14 +1,13 @@
 body {
-	background:#FF8E26;
+	background:#666666;
 }
 .all {
   width: 500px;
   height: 500px;
   margin: auto;
   margin-top:100px;
-  background: #6DA9E0;
   border-radius: 45px;
-  font-family: arial black;
+  font-family: Arial;
 }
 .enter {
   width: 400px;
@@ -31,21 +30,20 @@ form div {
 h1 {
   font-size: 24px;
   font-weight: 400;
-  padding-top: 50px;
   color:#fff;
   text-align:center;
 
 }
 h1:after {
-  font-size: 40px;
+  font-size: 24px;
 }
 
 /********************** стилизация элементов формы **********************/
 label, span {
+  margin-top: 30px;
   display: block;
   font-size: 20px;
   color: #fff;
-  margin-bottom: 8px;
 }
 input[type="text"], input[type="password"] {
   border-width: 0;
@@ -71,9 +69,6 @@ input:-webkit-autofill {
   
 }
 
-.name {
-	margin-bottom: 70px;
-}
 
 
 
@@ -86,12 +81,13 @@ button {
   font-size: 16px;
   outline: none;
   text-transform: uppercase;
-  font-family:arial black;
+  font-family:Arial;
 	width:120px;
-	height:40px;
-	background: #d9d9d9;
+	height:35px;
+	background: #FA4616;
 	border-radius: 25px;
 	border:0px;
+  margin-top: 100px;
 }
 
 @media (max-width: 600px) {

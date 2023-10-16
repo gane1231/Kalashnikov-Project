@@ -1,9 +1,9 @@
  	body{ 
-	  font-family: arial black; 
+	  font-family: arial; 
 	} 
 	h2{ 
 	  text-align:center;
-	  font-family:arial black;
+	  font-family:arial;
 	  font-weight:400;
 	  font-stretch:ultra-expanded;
 	  font-size:30px;
@@ -84,7 +84,7 @@
     bottom:80px;
 	width:200px;
 	height:50px;
-	background: white;
+	background:#FA4616;
 	border-radius: 50px;
 		border:0px;
 	}
@@ -92,7 +92,7 @@
 h3 {
 	text-align:center;
 	font-size:30px;
-	font-family:arial black;
+	font-family:arial;
 	color:black;
 	margin-top: 0;
 }
