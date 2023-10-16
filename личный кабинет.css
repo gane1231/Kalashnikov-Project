@@ -1,0 +1,102 @@
+body {
+	background:#FF8E26;
+}
+.all {
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  margin-top:100px;
+  background: #6DA9E0;
+  border-radius: 45px;
+  font-family: arial black;
+}
+.enter {
+  width: 400px;
+  height: 69px;
+  font-size: 36px;
+  float: center;
+  margin: auto;
+}
+form {
+  background: none;
+  float: center;
+  padding: 50px;
+  color: #7b7b7b; 
+}
+
+form div {
+  margin-bottom: 15px;
+  position: relative;
+}
+h1 {
+  font-size: 24px;
+  font-weight: 400;
+  padding-top: 50px;
+  color:#fff;
+  text-align:center;
+
+}
+h1:after {
+  font-size: 40px;
+}
+
+/********************** стилизация элементов формы **********************/
+label, span {
+  display: block;
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 8px;
+}
+input[type="text"], input[type="password"] {
+  border-width: 0;
+  outline: none;
+  margin: 0;
+  width: 100%;
+  padding: 10px 15px;
+  background: #d9d9d9;
+ 
+}
+
+.exit {
+	float:left;
+	margin-top:-60px;
+	margin-left: 20px;
+	font-size:30px;
+	color: black;
+	text-decoration:none;
+	
+}
+input:-webkit-autofill {
+   transition: background-color 5000s ease-in-out 0s;
+  
+}
+
+.name {
+	margin-bottom: 70px;
+}
+
+
+
+button {
+  padding: 10px 0;
+  border-width: 0;
+  display: block;
+  margin: auto ;
+  color: black;
+  font-size: 16px;
+  outline: none;
+  text-transform: uppercase;
+  font-family:arial black;
+	width:120px;
+	height:40px;
+	background: #d9d9d9;
+	border-radius: 25px;
+	border:0px;
+}
+
+@media (max-width: 600px) {
+  .form-wrap {margin: 20px auto; max-width: 550px; width:100%;}
+  .profile, form {float: none; width: 100%;}
+  h1 {margin-top: auto; padding-bottom: 50px;}
+  form {border-radius: 0 0 20px 20px;}
+}
