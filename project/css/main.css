@@ -1,0 +1,25 @@
+body {
+  width: 100%;
+  height: 100vh;
+}
+header {
+  position: absolute;
+  width: 100%;
+  height: 10vh;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  width: 12%;
+}
+.logo img {
+  width: 100%;
+  height: 10vh;
+}
+.LichniiKabinet {
+  width: 12%;
+}
+.LichniiKabinet button {
+  width: 100%;
+  height: 8vh;
+}
