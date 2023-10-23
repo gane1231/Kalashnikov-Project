@@ -1,0 +1,27 @@
+.header {
+	height:70px;
+	border-bottom: 2px solid #FA4616;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo {
+	justify-content: center;
+	width:160px;
+	height:65px;
+	margin-left: 16rem;
+}
+
+.Button {
+	height: 45px;
+	width:220px;
+	margin-right:10rem;
+	border-radius:6px;
+	background:#FA4616;
+	border:none;
+	text-align:center;
+	font-size:24px;
+	color:white;
+	font-family:arial;
+}
