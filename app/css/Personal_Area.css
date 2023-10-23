@@ -1,26 +1,28 @@
 body {
-	background:#666666;
+	background:#1C1C1C;
 }
 .all {
-  width: 500px;
-  height: 500px;
   margin: auto;
   margin-top:100px;
   border-radius: 45px;
   font-family: Arial;
+
 }
 .enter {
-  width: 400px;
-  height: 69px;
   font-size: 36px;
-  float: center;
-  margin: auto;
+  Width: 450px;
+  Height:500px;
+  display: flex;
+  justify-content: centers;
 }
 form {
   background: none;
   float: center;
-  padding: 50px;
-  color: #7b7b7b; 
+  color: #7b7b7b;
+  Width: 350px;
+  Height:50px;
+  padding: 100px;
+  margin-left: 500px;
 }
 
 form div {
@@ -28,21 +30,24 @@ form div {
   position: relative;
 }
 h1 {
-  font-size: 24px;
+  font-size: 32px;
   font-weight: 400;
   color:#fff;
   text-align:center;
+  width: 451px;
+  height: 45px;
+  margin-top: 78px;
+  margin-left: 550px;
 
 }
 h1:after {
   font-size: 24px;
 }
 
-/********************** стилизация элементов формы **********************/
 label, span {
   margin-top: 30px;
   display: block;
-  font-size: 20px;
+  font-size: 32px;
   color: #fff;
 }
 input[type="text"], input[type="password"] {
@@ -52,6 +57,7 @@ input[type="text"], input[type="password"] {
   width: 100%;
   padding: 10px 15px;
   background: #d9d9d9;
+  border-radius:24px; 
  
 }
 
@@ -60,7 +66,7 @@ input[type="text"], input[type="password"] {
 	margin-top:-60px;
 	margin-left: 20px;
 	font-size:30px;
-	color: black;
+	color: #FFF;
 	text-decoration:none;
 	
 }
@@ -71,23 +77,23 @@ input:-webkit-autofill {
 
 
 
-
 button {
   padding: 10px 0;
   border-width: 0;
   display: block;
   margin: auto ;
-  color: black;
+  color: #FFF;
   font-size: 16px;
   outline: none;
   text-transform: uppercase;
   font-family:Arial;
-	width:120px;
-	height:35px;
+	width:219px;
+	height:45px;
 	background: #FA4616;
-	border-radius: 25px;
+	border-radius: 2px;
 	border:0px;
-  margin-top: 100px;
+  margin-top: 30px;
+  
 }
 
 @media (max-width: 600px) {
