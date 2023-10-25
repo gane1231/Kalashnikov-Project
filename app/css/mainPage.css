@@ -1,0 +1,61 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	color: #fff;
+	background-color: #1C1C1C;
+	margin-right: 13%;
+	margin-left: 13%;
+}
+button{
+	background-color: #FA4616;
+	color: #fff;
+	border: 0;
+	width: auto;
+	height: 41px;
+	padding: 13px 25px 13px 25px;
+	font-weight: medium;
+	border-radius: 8px;
+}
+button:hover{
+	background-color: #fff;
+	color: #FA4616;
+	border: 0;
+	width: auto;
+	height: 41px;
+	padding: 13px 25px 13px 25px;
+	font-weight: medium;
+	/* border: 1px solid #FA4616; */
+	border-radius: 8px;
+}
+.filters-1{
+	display: flex;
+	justify-content: end;
+}
+.filters-2{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	background-color: #FA4616;
+	padding: 13px;
+	border-radius: 8px;
+}
+.direction, .year, .mentor, .button{
+	width: 25%;
+}
+h3{
+	font-size: 16px;
+	font-weight:normal;
+	margin: 0;
+}
+h4{
+	font-size: 15px;
+	font-weight:lighter;
+	margin: 0;
+}
+input[type=checkbox]{
+	background-color: aquamarine;
+}
