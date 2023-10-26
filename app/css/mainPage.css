@@ -37,14 +37,21 @@ button:hover{
 }
 .filters-2{
 	display: flex;
-	justify-content: space-between;
-	flex-wrap: wrap;
+	flex-direction: column;
 	background-color: #FA4616;
 	padding: 13px;
 	border-radius: 8px;
 }
-.direction, .year, .mentor, .button{
-	width: 25%;
+.line{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 30px;
+}
+.direction, .year, .mentor{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	gap: 8px;
 }
 h3{
 	font-size: 16px;
@@ -56,6 +63,21 @@ h4{
 	font-weight:lighter;
 	margin: 0;
 }
-input[type=checkbox]{
-	background-color: aquamarine;
+.filters-2 #back{
+	font-size: 16px;
+	padding-top: 0;
+}
+.filters-2 #back:hover{
+	background-color: #FA4616;
+	padding-top: 0;
+	color: #fff;
+	font-size: 16;
+}
+.centerBox{
+	align-self: center;
+	border: 1px solid #fff;
+}
+
+.active{
+	display: none;
 }
