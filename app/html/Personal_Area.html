@@ -4,23 +4,19 @@
 <link href="..\css\Personal_Area.css" rel="stylesheet">
 
 <header> <a class="exit" href="javascript:history.back()">🡄</a></header>
-<div class="all">
-  
-    <h1>вход в личный кабинет</h1>
-  <div class="enter">
-  <form method="post" action="Main_Page.php">
-    <div class="name">
-      <label for="name">логин:</label>
-      <input type="text" name="name" required > 
-    </div>
-    <div>
-      <label for="password">Пароль:</label>
-      <input type="password" name="password" required>
-    </div> 
-    <button type="submit">войти</button> 
-  </form> 
 
+<h1>Вход в личный кабинет</h1>
+<form class="form" action="" method="post">
+  <div class="label">
+  <label>Логин:</label>
+  <input class="input" type="text">
   </div>
-</div>
+  
+  <div class="label">
+  <label>Пароль:</label>
+  <input class="input" type="password">
+  </div>
+  <button class="btn" type="submit">Войти</button>
+</form>
 </body>
 </html>

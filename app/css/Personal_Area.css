@@ -1,104 +1,56 @@
+
 body {
-	background:#1C1C1C;
-}
-.all {
-  margin: auto;
-  margin-top:100px;
-  border-radius: 45px;
   font-family: Arial;
-
-}
-.enter {
-  font-size: 36px;
-  Width: 450px;
-  Height:500px;
-  display: flex;
-  justify-content: centers;
-}
-form {
-  background: none;
-  float: center;
-  color: #7b7b7b;
-  Width: 350px;
-  Height:50px;
-  padding: 100px;
-  margin-left: 500px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #1c1c1c;
 }
 
-form div {
-  margin-bottom: 15px;
-  position: relative;
-}
-h1 {
-  font-size: 32px;
-  font-weight: 400;
-  color:#fff;
-  text-align:center;
-  width: 451px;
-  height: 45px;
-  margin-top: 78px;
-  margin-left: 550px;
-
-}
-h1:after {
-  font-size: 24px;
+* {
+  box-sizing: border-box;
 }
 
-label, span {
-  margin-top: 30px;
+.form {
+  max-width: 43rem;
+  padding: 15px;
+  margin: 20px auto;
+  background-color: none;
+  border: 6px solid #fff;
+  border-radius: 24px;
+}
+
+.input {
   display: block;
-  font-size: 32px;
+  width: 32rem;
+  padding: 8px 10px;
+  margin-bottom: 10px;
+  
+  border: 1px solid #ccc;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: inherit;
+  font-size: 16px;
+}
+
+.label {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  padding: 8px 10px;
+  
+  border: 0;
+  background-color: #1cbc11;
+  cursor: pointer;
+  
+  font-family: inherit;
+  font-size: 16px;
   color: #fff;
 }
-input[type="text"], input[type="password"] {
-  border-width: 0;
-  outline: none;
-  margin: 0;
-  width: 100%;
-  padding: 10px 15px;
-  background: #d9d9d9;
-  border-radius:24px; 
- 
-}
 
-.exit {
-	float:left;
-	margin-top:-60px;
-	margin-left: 20px;
-	font-size:30px;
-	color: #FFF;
-	text-decoration:none;
-	
-}
-input:-webkit-autofill {
-   transition: background-color 5000s ease-in-out 0s;
-  
-}
-
-
-
-button {
-  padding: 10px 0;
-  border-width: 0;
-  display: block;
-  margin: auto ;
-  color: #FFF;
-  font-size: 16px;
-  outline: none;
-  text-transform: uppercase;
-  font-family:Arial;
-	width:219px;
-	height:45px;
-	background: #FA4616;
-	border-radius: 2px;
-	border:0px;
-  margin-top: 30px;
-  
-}
-
-@media (max-width: 600px) {
-  .form-wrap {margin: 20px auto; max-width: 550px; width:100%;}
-  .profile, form {float: none; width: 100%;}
-  h1 {margin-top: auto; padding-bottom: 50px;}
-  form {border-radius: 0 0 20px 20px;}
+.btn:hover {
+  background-color: #14a20a;
 }
