@@ -23,10 +23,20 @@ body {
   width: 30%;
   height: auto;
   display: flex;
-  padding-bottom: 10%;
+  align-items: center;
+  margin-bottom: 10%;
   justify-content: space-around;
+}
+.projects a:hover{
+  align-items: baseline;
 }
 .projects img {
   width: 90%;
   height: auto;
+  position: relative;
+}
+.text{
+  position: absolute;
+  font-size: 32px;
+  color: #fff;
 }
