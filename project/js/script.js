@@ -37,9 +37,9 @@ new Swiper('.image-slider',{
 	// Автовысота
 	autoHeight: true,
 	// Кол-во слайдов для показа
-	slidesPerView: 3,
+	slidesPerView: 2.15,
 	// Отступ между слайдами
-	spaceBetween: -10,
+	spaceBetween: 15,
 	// Активный слайд по центру
 	centeredSlides: true,
 	// Бесконечный слайдер
@@ -55,7 +55,7 @@ new Swiper('.image-slider',{
 		pauseOnMouseEnter: true,
 	},
 	// Скорость прокрутки
-	speed: 700,
+	speed: 1000,
 
 	// Куб
 	/*effect: 'cube',
@@ -67,5 +67,14 @@ new Swiper('.image-slider',{
 	
 	// CoverFlow
 	effect: 'coverflow',
+	// Дополнение к coverflow
+	coverflowEffect: {
+		// Угол
+		rotate: 50,
+		// Наложение 
+		stretch: 30,
+		// Тени
+		slideShadows: false,
+	}
 
 });

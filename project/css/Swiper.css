@@ -25,12 +25,14 @@ html, body {
 .wrapper h1 {
 	color: #ffffff;
 	text-align: center;
-	font-size: 55px;
+	font-size: calc(10px + 45 * (100vw / 1500));
 	font-weight: 300;
 	font-family: Montserrat;
+	padding-top: 10px;
 }
 .image-slider {
-	padding: 10px 0 70px 0;
+	margin-top: 10px;
+	padding-bottom: 30px;
 }
 .image-slider_wrapper {
 	
@@ -43,17 +45,21 @@ html, body {
 }
 .image-slider_image img {
 	max-width: 100%;
+	max-height: 50vh;
 }
 /* Стрелки */
 .image-slider .swiper-button-prev::after,
 .image-slider .swiper-button-next::after {
 	color: #ffffff;
 	font-size: 60px;
+	font-size: calc(10px + 50 * (100vw / 1980));
+  	align-items: center;
+ 	margin-bottom: 30px;
 }
 /* Буллеты */
 .image-slider .swiper-pagination-bullet {
-	width: 13px;
-	height: 13px;
+	width: 1em;
+	height: 1em;
 	line-height: 15px;
 	font-size: 10px;
 	background-color: white;
