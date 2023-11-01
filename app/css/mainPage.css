@@ -3,6 +3,9 @@
 	padding: 0;
 	/* /19.2 */
 }
+::-webkit-scrollbar {
+	width: 0;
+}
 body{
 	font-family: 'Montserrat', sans-serif;
 	font-size: 0.83vw;
@@ -38,6 +41,7 @@ button:hover{
 .filters-1{
 	display: flex;
 	justify-content: end;
+	margin-bottom: 5.73vw;
 }
 .filters-2{
 	display: flex;
@@ -45,6 +49,7 @@ button:hover{
 	background-color: #FA4616;
 	padding: 0.677vw;
 	border-radius: 0.417vw;
+	margin-bottom: 5.73vw;
 }
 .top-filter{
 	display: flex;
@@ -110,7 +115,7 @@ label h4{
 	display: inline-block;
 	width: 0.78vw;
 	height: 0.78vw;
-	border: 0.05vw solid #e4e4e4;
+	border: 0.05vw solid #fff;
 	border-radius: 0.216vw ;
 }
 
@@ -119,7 +124,7 @@ label h4{
 	display: inline-block;
 	width: 0.78vw;
 	height: 0.78vw;
-	background-color: #e4e4e4;
+	background-color: #fff;
 	transition: 0.2s ease-in;
 	transform: scale(0);
 }
@@ -128,4 +133,75 @@ label h4{
 	background-color: #FA4616;
 	height: 0.05vw;
 	margin-bottom: 2.6vw;
+}
+
+/* Project */
+.projects {
+  width: 100%;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.projects a {
+  width: 20.834vw;
+  height: 20.834vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5.73vw;
+  justify-content: space-around;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+.projects img {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.about-hover{
+	margin-top: 7.2vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: absolute;
+	width: 15.3vw;
+	overflow: hidden;
+	gap: 1.14vw;
+}
+.text{
+	font-size: 1.6vw;
+	color: #fff;
+	position: relative;
+}
+.about{
+	position: relative;
+	color: #fff;
+}
+a .about{
+	transform: translateY(100px);
+	opacity: 0;
+	transition: all 0.8s linear; /* Менять время*/
+}
+a a.info{
+	opacity: 0;
+	transition: all 0.2s ease-in-out;
+} 
+a:hover .about-hover{
+	opacity: 1;
+	margin-top: 0;
+	transition: all 0.8s ease-in-out; /* Менять время*/
+}
+a:hover .text, a:hover .about{
+	opacity: 1;
+	transform: translateY(0);
+}
+a:hover .about{
+	transition-delay: 0.1s;
+}
+a:hover a.info{
+	transition-delay: 0.9s;
 }
