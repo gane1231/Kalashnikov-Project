@@ -2,11 +2,27 @@
 	margin: 0;
 	padding: 0;
 	user-select: none;
+	text-transform: uppercase;
 	/* /19.2 */
 }
 ::-webkit-scrollbar {
 	width: 0;
 }
+/* Шапка */
+nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 3.59vw;
+}
+nav img{
+	width: 8.9vw;
+}
+/* Линнии разделения */
+#first-line, #line-3{
+	margin-bottom: 0;
+}
+
 body{
 	font-family: 'Montserrat', sans-serif;
 	font-size: 0.83vw;
@@ -27,6 +43,7 @@ button{
 	border-radius: 0.416vw;
 	font-size: 0.83vw;
 	user-select: none;
+	cursor: pointer;
 }
 button:hover{
 	background-color: #fff;
@@ -60,7 +77,6 @@ button:hover{
 .direction, .year, .mentor{
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
 	gap: 0.47vw;
 }
 h3{
@@ -70,7 +86,7 @@ h3{
 }
 h4{
 	font-size: 0.78vw;
-	font-weight:lighter;
+	font-weight:300;
 	margin: 0;
 }
 .filters-2 #back{
@@ -154,7 +170,7 @@ label h4{
   overflow: hidden;
   position: relative;
   text-align: center;
-  cursor: default;
+  cursor:pointer;
 }
 .projects img {
   width: 100%;
@@ -167,7 +183,7 @@ label h4{
 	flex-direction: column;
 	align-items: center;
 	position: absolute;
-	width: 15.3vw;
+	width: auto;
 	overflow: hidden;
 	gap: 1.14vw;
 }
@@ -179,6 +195,7 @@ label h4{
 .about{
 	position: relative;
 	color: #fff;
+	text-transform: none;
 }
 a .about{
 	transform: translateY(100px);
@@ -198,9 +215,40 @@ a:hover .text, a:hover .about{
 	opacity: 1;
 	transform: translateY(0);
 }
+
 a:hover .about{
 	transition-delay: 0.1s;
 }
 a:hover a.info{
 	transition-delay: 0.9s;
+}
+.slider{
+	width: 100%;
+	height: 52.65vw;
+	background-color:#1C1C1C;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* Анимации */
+
+.element-animation {
+  /* Скроем элемент в начальном состоянии */
+  opacity: 0;
+  /* transform: translateY(20px); */
+}
+.element-animation.element-show {
+  opacity: 1;
+  transition: all 2s ease-in;
+  /* transform: translateY(0%); */
+}
+
+/* footer */
+.project-designers{
+	display: flex;
+	flex-direction: column;
+	gap: 0.52vw;
+	padding-top: 2vw;
+	padding-bottom: 2vw;
 }
