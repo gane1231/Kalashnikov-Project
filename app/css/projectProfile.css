@@ -13,6 +13,7 @@ h5{
 p{
     width: 29.69vw;
     font-size: 0.83vw;
+    /* line-height: 1.4vw; */
 }
 #backArrow{
     position: absolute;
