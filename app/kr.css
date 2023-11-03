@@ -16,11 +16,11 @@ background: #1C1C1C;
  align-items: center;
  height: 100%;
  width: 100%;
- margin-top: 5%;
+ margin-top: 4em;
 }
 .login-box{
  background: #1C1C1C;
- padding: 11% 4% 4% 4%;
+ padding: 9em 5em 3em 5em;
  display: flex;
  border: 6px solid #FA4616;
  border-radius: 24px;
@@ -98,14 +98,8 @@ button{
  font-size: 1em;
  cursor: pointer;
  border-radius: 6px;
- border: 1px solid #FA4616;
 }
-button:hover {
-  background: #FFF;
-  color: #FA4616;
-  border: 1px solid #FA4616;
-  transition: all 0.3s ease;
-}
+
 
 
 input:-webkit-autofill {

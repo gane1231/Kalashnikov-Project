@@ -1,22 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/Personal_Area.css">
+    <script src="/js/Personal_Area.js" crossorigin="anonymous"></script>
+</head>
+<header class="last">
+    <a href="javascript:history.back()"><img src="https://img.icons8.com/metro/52/FFFFFF/arrow-pointing-left.png" width="30" height="30" alt="Пример"></a>
+</header>
+
 <body>
-<link href="..\css\Personal_Area.css" rel="stylesheet">
-
-<header> <a class="exit" href="javascript:history.back()">🡄</a></header>
-
-<h1>Вход в личный кабинет</h1>
-<form class="form" action="" method="post">
-  <div class="label">
-  <label>Логин:</label>
-  <input class="input" type="text">
-  </div>
-  
-  <div class="label">
-  <label>Пароль:</label>
-  <input class="input" type="password">
-  </div>
-  <button class="btn" type="submit">Войти</button>
-</form>
+    <div class="all">
+        <div class="login-box">
+            <div class="user-icon">
+                <h1>Вход в личный кабинет</h1>
+            </div>
+        <form class="login">
+            <div class="form-group">
+                <label>Логин:</label>
+                <input type="text" id="username" class="form-control">
+            </div>
+            <div class="form-group">
+                <label>Пароль:</label>
+                <input type="password" id="password" class="form-control">
+            </div>
+            <div class="form-group1">
+                <button class="full-btn">войти</button>
+            </div>
+        </form>
+        </div>
+    </div>
 </body>
 </html>
