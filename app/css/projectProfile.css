@@ -40,6 +40,7 @@ article{
     width: 0.05vw;
     background-color: #FA4616;
     margin-right: 0.52vw;
+    box-shadow: 0 0.21vw 0.625vw 0px #FA4616;
 }
 section{
     display: flex;
@@ -54,6 +55,9 @@ video{
     border-radius: 1.25vw;
     /* border: 2px solid #FA4616; */
 }
+.files{
+    display: flex;
+}
 .attachedFile{
     display: flex;
     flex-direction: column;
@@ -61,6 +65,7 @@ video{
 }
 .attachedFile img{
     width: 4.95vw;
+    margin-right: 2.6vw;
 }
 .attachedFile a{
     width: 4.95vw;

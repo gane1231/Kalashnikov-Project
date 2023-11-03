@@ -151,6 +151,7 @@ label h4{
 	background-color: #FA4616;
 	height: 0.05vw;
 	margin-bottom: 2.6vw;
+	box-shadow: 0 0.21vw 0.625vw 0px #FA4616;
 }
 
 /* Project */
@@ -179,6 +180,7 @@ label h4{
   width: 100%;
   height: auto;
   position: relative;
+  opacity: 0.85;
 }
 .about-hover{
 	margin-top: 7.2vw;
