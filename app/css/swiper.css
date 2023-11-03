@@ -1,18 +1,4 @@
-a {
-	text-decoration: none;
-}
-ul, ol, li {
-	list-style: none;
-}
-img {
-	vertical-align: top;
-}
-html, body {
-	line-height: 1;
-	font-size: 14px;
-	background-color: #1C1C1C;
-	font-family: Arial, Helvetica, sans-serif;
-}
+
 .wrapper h1 {
 	color: #ffffff;
 	text-align: center;
@@ -25,12 +11,11 @@ html, body {
 	margin-top: 10px;
 	padding-bottom: 30px;
 }
-.image-slider_wrapper {
+/* .image-slider_wrapper {
 	
 }
-.image-slider_slide {
+.image-slider_slide { */
 
-}
 .image-slider_image {
 	text-align: center;
 }
