@@ -1,0 +1,57 @@
+a {
+	text-decoration: none;
+}
+ul, ol, li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+html, body {
+	line-height: 1;
+	font-size: 14px;
+	background-color: #1C1C1C;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper h1 {
+	color: #ffffff;
+	text-align: center;
+	font-size: calc(10px + 45 * (100vw / 1500));
+	font-weight: 300;
+	font-family: Montserrat;
+	padding-top: 10px;
+}
+.image-slider {
+	margin-top: 10px;
+	padding-bottom: 30px;
+}
+.image-slider_wrapper {
+	
+}
+.image-slider_slide {
+
+}
+.image-slider_image {
+	text-align: center;
+}
+.image-slider_image img {
+	max-width: 100%;
+	max-height: 50vh;
+}
+/* Стрелки */
+.image-slider .swiper-button-prev::after,
+.image-slider .swiper-button-next::after {
+	color: #ffffff;
+	font-size: 60px;
+	font-size: calc(10px + 50 * (100vw / 1980));
+  	align-items: center;
+ 	margin-bottom: 30px;
+}
+/* Буллеты */
+.image-slider .swiper-pagination-bullet {
+	width: 1em;
+	height: 1em;
+	line-height: 15px;
+	font-size: 10px;
+	background-color: white;
+}
