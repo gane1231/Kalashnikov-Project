@@ -1,11 +1,14 @@
-
-.last {
-    position: fixed;
+.last{
+   display: flex;
+   justify-content: center;
+   margin-left: -17rem;
+}
+.back {
     top: 0;
     left: 0;
   }
   
-  .last {
+  .back {
     padding-left: 48px;
     padding-top: 48px;
     padding-bottom: -80px;
@@ -21,7 +24,6 @@
 
 body{
 background: #1C1C1C;
-width: 100%;
 }
 
 .all{
@@ -29,8 +31,6 @@ width: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100%;
-    width: 100%;
     margin-top: 5%;
    }
 
@@ -43,35 +43,107 @@ width: 100%;
     align-items: center;
     justify-content: center;
     position: relative;
-    width: 400px;
+    width: 19rem;
     font-size: 14px;
    }
 
 .user-icon{
     color: #FFF;
     display: flex;
+    width: 50rem;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
-    position: absolute;
-    top: 16px;
+    margin-bottom: 1rem;
    }
 
-.block {
+
+.block1 {
     border: 6px solid #FA4616;
-    width: 400px;
+    width: 19rem;
     border-radius: 24px;
     display: flex;
     flex-direction: column;
+    margin-top:1rem;
 
 }
 
 
- label {
+ .label1 {
     color:#FFF;
     padding: 5px 15px 5px 15px;
 
  }
  .img {
     margin: auto;
-    padding-bottom: 15px;
+    padding-bottom: 1rem;
  }
+
+ 
+.block {
+   border: 6px solid #FA4616;
+   width: 19rem;
+   border-radius: 24px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-top: 1rem;
+}
+
+
+label {
+   color:#FFF;
+   padding: 1rem;
+
+}
+
+
+.container {
+   display: flex;
+}
+
+.column {
+   padding-right: 2rem;
+   padding-left: 2rem;
+   margin: 5px;
+}
+
+   .column--4 {
+       flex: 0 0 calc(100% / 4);
+   }
+
+   .column--3 {
+       flex: 0 0 calc(100% / 3);
+   }
+
+.img99 {
+   margin-left: 1rem;
+}
+
+.btn{
+   outline: none;
+   background: #FA4616;
+   color: #FFF;
+   padding: 16px;
+   margin-top: 2rem;
+   display: block;
+   width: 16rem;
+   border:none;
+   text-transform: uppercase;
+   font-size: 16px;
+   cursor: pointer;
+   border-radius: 6px;
+   border: 1px solid #FA4616;
+  }
+.btn:hover {
+    background: #FFF;
+    color: #FA4616;
+    border: 1px solid #FA4616;
+    transition: all 0.3s ease;
+  }
+
+  h1 {
+   font-size: 48px;
+   margin-top: -3rem;
+  }
