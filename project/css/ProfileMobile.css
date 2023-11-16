@@ -1,0 +1,20 @@
+body {
+	background-color: #1C1C1C;
+}
+.container {
+	display: flex;
+	padding: 15px;
+}
+.Flexstart {
+	display: flex;
+	align-items: flex-end;
+	padding-right: 10%;
+}
+.Flexend {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.Flexend img {
+	width: 53vw;
+}
