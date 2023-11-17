@@ -1,20 +1,18 @@
 
 .wrapper h1 {
-	color: #ffffff;
 	text-align: center;
-	font-size: calc(10px + 45 * (100vw / 1500));
+	font-size: 3.3vw;
 	font-weight: 300;
-	font-family: Montserrat;
-	padding-top: 10px;
 }
 .image-slider {
-	margin-top: 10px;
-	padding-bottom: 30px;
+	padding-bottom: 1.6vw;
+	padding-top: 1.6vw;
 }
-/* .image-slider_wrapper {
+.image-slider_wrapper {
 	
 }
-.image-slider_slide { */
+.image-slider_slide {
+}
 
 .image-slider_image {
 	text-align: center;
@@ -22,6 +20,7 @@
 .image-slider_image img {
 	max-width: 100%;
 	max-height: 50vh;
+	border-radius: 1.25vw;
 }
 /* Стрелки */
 .image-slider .swiper-button-prev::after,

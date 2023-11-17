@@ -1,0 +1,67 @@
+main{
+  margin-top: 3.65vw;
+  display: flex;
+  justify-content: center;
+}
+#back img{
+  height: 2.42vw;
+  position: absolute;
+
+  margin-left: 3.125vw;
+}
+.conteiner{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.login-box{
+ display: flex;
+ border: 0.05vw solid #FA4616;
+ border-radius: 1.25vw;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ width: 35.78vw;
+}
+.user-icon{
+  text-align: center;
+  margin-bottom: 2.34vw;
+}
+
+.login{
+ width: 26.4vw;
+ margin-top: 9.22vw;
+margin-bottom: 9.22vw;
+}
+.form-group{
+    margin-bottom: 2.29vw;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+   }
+.form-group1{
+ display: flex;
+ justify-content: center;
+}
+.form-group1 a{
+  	padding: 0.68vw 4.11vw 0.68vw 4.11vw;
+}
+.form-group1 a:hover{
+  	padding: 0.68vw 4.11vw 0.68vw 4.11vw;
+}
+
+input[type="text"].form-control, input[type="password"].form-control{
+font-size: 0.83vw;
+ background: #ffffff;
+ height: 2.6vw;
+ border-radius: 0.42vw;
+}
+input[type="text"].form-control:focus, input[type="password"].form-control:focus{
+ border: 0.1vw solid #de5f3c;
+}
+input[type="text"].form-control:active, input[type="password"].form-control:active{
+ border: 0.1vw solid #ff592c;
+}
+
+
+

@@ -28,18 +28,18 @@ new Swiper('.image-slider',{
 		pageUpDown: false,
 	},
 	// Управление колесом мыши
-	mousewheel: {
-		// Чувствительность
-		sensivity: 1,
-		// Класс объекта на котором будет срабатывать прокрутка мышкой
-		//eventsTarget: ".image-slider"
-	},
+	// mousewheel: {
+	// 	// Чувствительность
+	// 	sensivity: 1,
+	// 	// Класс объекта на котором будет срабатывать прокрутка мышкой
+	// 	//eventsTarget: ".image-slider"
+	// },
 	// Автовысота
 	autoHeight: true,
 	// Кол-во слайдов для показа
 	slidesPerView: 2.15,
 	// Отступ между слайдами
-	spaceBetween: 15,
+	spaceBetween: 5,
 	// Активный слайд по центру
 	centeredSlides: true,
 	// Бесконечный слайдер
@@ -48,7 +48,7 @@ new Swiper('.image-slider',{
 	// Автопрокрутка
 	autoplay: {
 		// Пауза между прокурткой
-		delay: 2000,
+		delay: 4000,
 		// Отключить после ручного переключения
 		disableOnInteraction: false,
 		// Оставновка при наведении мыши 

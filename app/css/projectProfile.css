@@ -7,13 +7,13 @@ h1{
     text-align: center;
 }
 h5{
-    font-size: 1.25vw;
+    font-size: 1.05vw;
     font-weight: lighter;
 }
 p{
     width: 29.69vw;
+    line-height: 1.4vw;
     font-size: 0.83vw;
-    /* line-height: 1.4vw; */
 }
 #backArrow{
     position: absolute;
@@ -26,6 +26,7 @@ article{
     display: flex;
     justify-content: space-between;
     margin-top: 5.72vw;
+    margin-bottom: 5.72vw;
 }
 .aboutTeam{
     display: flex;
@@ -70,4 +71,8 @@ video{
 }
 .attachedFile a{
     width: 4.95vw;
+}
+.nameTeam{
+    background-color: #FA4616;
+    border-radius: 1.25vw;
 }
