@@ -25,7 +25,7 @@ width: 100%;
  background: #1C1C1C;
  padding: 11% 4% 4% 4%;
  display: flex;
- border: 6px solid #FA4616;
+ border: 2px solid #FA4616;
  border-radius: 24px;
  flex-direction: column;
  align-items: center;
@@ -33,6 +33,7 @@ width: 100%;
  position: relative;
  width: 400px;
  font-size: 14px;
+ margin: auto;
 }
 .user-icon{
  color: #FFF;
@@ -146,22 +147,8 @@ button:hover {
   font-family: Montserrat;
 }
 
-.btn {
-  display: block;
-  width: 100%;
-  padding: 8px 10px;
-  margin-top: 100px;
-  
-  border: 0;
-  background-color: #1cbc11;
-  cursor: pointer;
-  
-  font-family: inherit;
-  font-size: 16px;
-  color: #fff;
 
-}
-
+ 
 
 
 input:-webkit-autofill {
@@ -172,14 +159,13 @@ input:-webkit-autofill {
 }
 
 
-.last {
-  position: fixed;
-  top: 0;
-  left: 0;
-}
+
 
 .last {
   padding-left: 48px;
   padding-top: 48px;
   padding-bottom: -80px;
+  display: block;
 }
+
+

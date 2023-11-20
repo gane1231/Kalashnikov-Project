@@ -38,8 +38,113 @@ background: #1C1C1C;
 
 
 
+  @media screen and (min-width: 2500px) {
+        
+  .login-box{
+   background: #1C1C1C;
+   padding: 4% 4% 4% 4%;
+   display: flex;
+   border-radius: 24px;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+   width: 50rem;
+   font-size: 14px;
+   }
 
-  @media screen and (max-width: 1900px) {
+.user-icon{
+   color: #FFF;
+   display: flex;
+   width: 300rem;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   margin-bottom: 1rem;
+   font-size: 148px;
+   }
+
+
+.block1 {
+   width: 125rem;
+   display: flex;
+   flex-direction: column;
+   margin-top:1rem;
+
+}
+.block {
+   width: 125rem;
+   display: flex;
+   flex-direction: column;
+   margin-top:1rem;
+   padding-bottom: -5px;
+}
+
+.input{
+   background: #1C1C1C;
+   border: #1C1C1C;
+   color:#e7dede;
+   font-size: 114px;
+   margin-left: 16px;
+}
+
+.label1 {
+   color:#FFF;
+   padding: 5px 15px 5px 15px;
+   font-size: 125px;
+
+}
+.img {
+   margin: auto;
+   padding-bottom: 1rem;
+   border-radius: 24px;
+   width: 300px;
+   height: 300px;
+}
+
+.container {
+   width: 65%;
+   display: flex;
+   justify-content: center;
+}
+
+.column {
+   margin: 5px;
+   margin-left: 8%;
+   margin-right: 8%;
+}
+
+   .column--4 {
+      flex: 0 0 calc(100% / 4);
+   }
+
+   .column--3 {
+      flex: 0 0 calc(100% / 3);
+   }
+
+.file {
+   margin-left: 1rem;
+}
+h1 {
+   font-size: 48px;
+   margin-top: -3rem;
+}
+.name_project {
+   color: #FFF;
+   display: flex;
+   width: 155rem;
+background: #FA4616;
+   border-radius: 24px;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 7px;
+   font-size: 160px;
+   text-align: center;
+   border: none;
+}
+  }
+  @media screen and (max-width: 2500px) {
      
   .login-box{
      background: #1C1C1C;
@@ -145,8 +250,7 @@ background: #1C1C1C;
      border: none;
   }
 }
-  
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 960px) {
   .login-box{
      background: #1C1C1C;
      padding: 4% 4% 4% 4%;
@@ -252,7 +356,6 @@ background: #1C1C1C;
   }
     
 }
-
   @media screen and (max-width: 680px) {
      .login-box{
      background: #1C1C1C;
@@ -366,7 +469,6 @@ background: #1C1C1C;
         margin-top: -3rem;
      }
   }
-
   @media screen and (max-width: 500px) {
      .login-box{
         background: #1C1C1C;
@@ -411,6 +513,7 @@ background: #1C1C1C;
            margin: 5px;
            margin-left: 3%;
            margin-right: 3%;
+         
               }
            
               .column--4 {
@@ -478,7 +581,6 @@ background: #1C1C1C;
 
         
      }
-  
   @media screen and (max-width: 350px) {
      .login-box{
         background: #1C1C1C;
