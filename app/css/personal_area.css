@@ -62,6 +62,34 @@ input[type="text"].form-control:focus, input[type="password"].form-control:focus
 input[type="text"].form-control:active, input[type="password"].form-control:active{
  border: 0.1vw solid #ff592c;
 }
-
+@media (max-width: 770px){
+    .conteiner{
+      margin-top: 45vw;
+    }
+    .login-box{
+      width: 60vw;
+      height: 60vw;
+    }
+    .conteiner .text{
+      font-size: 2.8vw;
+      margin-bottom: 0.8vw;
+    }
+    .login{
+      width: 44.22vw;
+    }
+    .user-icon{
+      margin-bottom: 6.3vw;
+    }
+    .form-group{
+      margin-bottom: 8vw;
+    }
+    #back img{
+      height: 8vw;
+    }
+    .form-group1 .button{
+      font-size: 1.8vw;
+      padding: 1.68vw 9.11vw 1.68vw 9.11vw;
+    }
+}
 
 
