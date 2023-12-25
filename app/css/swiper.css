@@ -5,8 +5,8 @@
 	font-weight: 300;
 }
 .image-slider {
-	padding-bottom: 1.6vw;
-	padding-top: 1.6vw;
+	padding-bottom: 5.3vw;
+	padding-top: 5.3vw;
 }
 .image-slider_wrapper {
 	
@@ -33,8 +33,8 @@
 }
 /* Буллеты */
 .image-slider .swiper-pagination-bullet {
-	width: 1em;
-	height: 1em;
+	width: 0.9em;
+	height: 0.9em;
 	line-height: 15px;
 	font-size: 10px;
 	background-color: white;
